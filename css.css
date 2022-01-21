@@ -14,6 +14,8 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+
+
 hr{
     display: block;
     width: 100%;
@@ -72,7 +74,8 @@ hr{
 }
 /*HEADER*/
 .header{
-    padding-top: 20px ;
+    padding-top: 10px;
+    padding-bottom: 100px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -87,18 +90,25 @@ hr{
 }
 /*LOGO*/
 .header_logo{
+
+    float: left;
+    margin-top: 5px;
     font-size: 30px;
     font-weight: bold;
     color: #1f1f1f;
     font-family: "Roboto b";
-    margin: 0 auto 40px;
+
+
 }
 
 
 /*NAV*/
 .nav{
+
     font-size: 14px;
     text-transform: uppercase;
+    padding-bottom: 150px;
+    clear: left;
 }
 .nav_link{
     display: inline-block;
@@ -218,10 +228,23 @@ hr{
     transition: opacity 0.1s linear;
 }
 
+.tochki{
+    text-align: center;
+}
+
 /*INFO*/
 .info{
     background-color: #95e1d3;
 
+}
+.Title{
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Roboto Light", cursive;
 }
 .stat{
     display: flex;
@@ -232,18 +255,16 @@ hr{
     border-left: 1px solid #b5eae0;
     text-align: center;
     color: #fff;
+
 }
 .stat_item:last-child{
     border-right: 1px solid #b5eae0;
 }
-.stat_number{
-    margin-bottom: 10px;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 1;
-}
+
+
 .stat_text{
     font-size:14px;
+    color: #548CFF;
     text-transform: uppercase;
 }
 
@@ -416,6 +437,10 @@ hr{
 .reviews_btn--next{
     transform: rotate(135deg);
 }
+.forma{
+    width: 100%;
+    align-items: center;
+}
 
-
+/*Footer*/
 
